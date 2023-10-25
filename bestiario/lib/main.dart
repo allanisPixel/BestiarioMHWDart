@@ -1,7 +1,11 @@
-import 'package:flutter/material.dart';
-import 'page_2.dart';
+// ignore_for_file: prefer_const_constructors
 
-void main() => runApp(MeuApp1());
+import 'package:flutter/material.dart';
+import 'monsterlist_view.dart';
+import 'splas_screen.dart';
+import 'home_page.dart';
+
+void main() => runApp(MonsterListView());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -17,21 +21,19 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
 
 class MyHomePage extends StatelessWidget {
-  final String title;
-  const MyHomePage({super.key, required this.title});
+  const MyHomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         // The title text which will be shown on the action bar
-        title: Text(title),
+        title: Text("Hello, World!"),
       ),
       body: Center(
         child: Text(
@@ -41,17 +43,3 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-
-// ANOTAÇÕES
-// widget Navigator
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//

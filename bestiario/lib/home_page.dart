@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MeuApp1());
-}
+class MeuApp3 extends StatelessWidget {
+  const MeuApp3({super.key});
 
-class MeuApp1 extends StatelessWidget {
-  Widget build(BuildContext bc) {
+  @override
+  Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
@@ -15,12 +14,12 @@ class MeuApp1 extends StatelessWidget {
             ),
             title: Text('Grande Jagras'),
           ),
-          body: Center(
+          body: const Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Row(//Imagem render
-                    children: const <Widget>[
+                    children: <Widget>[
                   Image(
                     image: AssetImage('assets/images/g_j_rend.png'),
                   ),

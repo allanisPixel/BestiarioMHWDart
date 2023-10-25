@@ -1,10 +1,10 @@
 import "package:flutter/material.dart";
 
 void main() {
-  runApp(MeuApp1());
+  runApp(Splashscreen());
 }
 
-class MeuApp1 extends StatelessWidget {
+class Splashscreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
