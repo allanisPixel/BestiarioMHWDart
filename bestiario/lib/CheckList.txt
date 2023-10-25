@@ -1,0 +1,24 @@
+• Definir o escopo do aplicativo a ser
+desenvolvido
+• Regras
+– Definir o escopo do P1
+– Criar protótipos das telas do projeto (Editor
+gráfico de livre escolha)
+            DONE
+
+• Criar as telas da aplicação
+• Regras
+– Mínimo de 3 telas
+– Reproduzir o projeto da Tarefa anterior em
+termos de componentes gráficos
+            DONE
+
+•Nevegação
+• Regras
+– Faça a transição entre as duas
+– Realize passagem de parâmetros (ao menos 1x)
+
+• Gerenciamento de estado
+• Regras
+– Adicione gerenciamento de estado
+– Separe regras de negócio de código de controle
