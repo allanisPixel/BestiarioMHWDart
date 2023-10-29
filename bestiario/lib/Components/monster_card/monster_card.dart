@@ -14,7 +14,7 @@ class MonsterCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
       ),
       alignment: Alignment.center,
-      margin: const EdgeInsets.only(left: 40, right: 40, bottom: 20),
+      margin: const EdgeInsets.only(left: 40, right: 40, bottom: 20, top: 30),
       padding: const EdgeInsets.all(10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,

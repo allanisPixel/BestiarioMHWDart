@@ -5,7 +5,9 @@ import 'monsterlist_view.dart';
 import 'splas_screen.dart';
 import 'home_page.dart';
 
-void main() => runApp(MonsterListView());
+void main() => runApp(MonsterList(
+      huntername: "Pedro",
+    ));
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
