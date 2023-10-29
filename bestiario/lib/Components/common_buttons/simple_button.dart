@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SimpleButton extends StatelessWidget {
-  final Text texto;
+  final String texto;
   //final rout;
 
   const SimpleButton({required this.texto});
@@ -13,17 +13,12 @@ class SimpleButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
       ),
       alignment: Alignment.center,
-
       child: Row(
-
         children: [
           Container(
-            margin: EdgeInsets.only(left: 10, right: 40),),
-          Container(
-            child: Text(this.texto as String, style: TextStyle(fontSize: 24)),
-            margin: EdgeInsets.only(left: 0, right: 0),
+            child: Text(texto, style: TextStyle(fontSize: 25)),
+            margin: EdgeInsets.only(left: 20, right: 20),
           ),
-
         ],
       ),
     );
