@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Components/common_buttons/simple_button.dart';
 
 void main() {
   runApp(MeuApp1());
@@ -9,18 +10,13 @@ class MeuApp1 extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            backgroundColor: Color.fromARGB(255, 228, 179, 18),
-            title: Text('Bem vindo Caçador(a)!'),
-
-            //actions: const <Widget>[
-            //  IconButton(onPressed:  ,  icon: Icon(Icons.keyboard_option_key)),
-            //],
-
+            backgroundColor: const Color(0xFFE9D6B5),
+            foregroundColor: Colors.black,
+            title: const Text("Bem vindo Caçador"),
           ),
           body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              
               children: <Widget>[
                 Row(children: <Widget>[
                   Container(
